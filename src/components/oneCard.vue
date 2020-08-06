@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-07-29 11:16:30
- * @LastEditTime: 2020-07-29 14:47:46
+ * @LastEditTime: 2020-07-30 11:44:07
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vue-demo/src/components/oneCard.vue
@@ -10,7 +10,7 @@
   <div class="one-card">
     <!-- <h2 v-if="obj.b && obj.b.color">我接受到的是 {{obj.b.color}}</h2> -->
     <h2 v-if="obj.b && obj.b.color && obj.b.color[0] === 'green'">是绿色呢</h2>
-    <h2 v-else>不是绿色</h2>
+    <h2 v-else>aaaaaaaaa</h2>
     <!-- <h2 v-if="obj2 && obj2.age === 22">我接受到的obj2是age22的 {{obj2}}</h2>
     <h2 v-else>我接受到的obj2非非非 {{obj2}}</h2> -->
   </div>
