@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-07-29 11:16:30
- * @LastEditTime: 2020-09-23 19:58:24
+ * @LastEditTime: 2020-09-24 10:13:02
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vue-demo/src/App.vue
@@ -11,7 +11,7 @@
     <button @click="toggleOneCard">切换oneCrad</button>
     <button @click="addOneCount">oneCount自增</button>
     <button @click="shiftOneCount">oneCount自减</button>
-    <one-card v-if="showOneCard" :one-count="oneCount"></one-card>
+    <one-card v-show="showOneCard" :one-count="oneCount"></one-card>
   </div>
 </template>
 
@@ -42,7 +42,7 @@ export default {
   methods:{
    toggleOneCard(){
      this.showOneCard = !this.showOneCard
-     this.oneCount.colors.push('6')
+    //  this.oneCount.colors.push('6')
    },
    addOneCount(){
      this.oneCount.colors.like.splice(3,0,'s')
